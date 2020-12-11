@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#app{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: red;
+}
+
+.content{
+    background-color: blue;
+}
+
+.title{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project{
+    font-size: 20px;
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.expand{
+    float: right;
+    font-weight: bolder;
+}
+
+.expand:hover{
+    cursor: pointer;
+}
+
+.todo{
+    font-size: 20px;
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px; 
+}
+
+.add-item,
+.add-project{
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.add-item:hover,
+.add-project:hover{
+    background-color: azure;
+}
